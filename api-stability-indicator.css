@@ -1,0 +1,82 @@
+/* style comes from http://nodejs.org/api/assets/style.css */
+
+pre, tt, code {
+  font-size: 14px;
+  line-height: 1.5438em;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  margin: 0; padding: 0;
+}
+
+.pre {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  line-height: 1.5438em;
+  font-size: 0.95em;
+}
+
+pre {
+  padding: 1em 1.6em 1em 1.2em;
+  vertical-align: top;
+  background: #f8f8f8;
+  border: 1px solid #e8e8e8;
+  border-width: 1px 1px 1px 6px;
+  margin: -0.5em 0 1.1em;
+  overflow-x: auto;
+}
+
+pre + h3 {
+  margin-top: 2.225em;
+}
+
+code.pre {
+  white-space: pre;
+}
+
+
+.api_stability_0 {
+  border-color: #D60027;
+}
+
+.api_stability_1 {
+  border-color: #EC5315;
+}
+
+.api_stability_2 {
+  border-color: #FFD700;
+}
+
+.api_stability_3 {
+  border-color: #AEC516;
+}
+
+.api_stability_4 {
+  border-color: #009431;
+}
+
+.api_stability_5 {
+  border-color: #0084B6;
+}
+
+.sh_sourceCode {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sh_sourceCode .sh_symbol,
+.sh_sourceCode .sh_cbracket {
+  color: #333;
+}
+
+.sh_sourceCode .sh_keyword {
+  color: #c96;
+}
+
+.sh_sourceCode .sh_string,
+.sh_sourceCode .sh_regexp,
+.sh_sourceCode .sh_number,
+.sh_sourceCode .sh_specialchar {
+  color: #690;
+}
+
+.sh_sourceCode .sh_comment {
+  color: #666;
+}
